@@ -20,7 +20,7 @@ class Header extends Component {
     return (
       <>
         <Navbar
-          fixed="fixed"
+          fixed="top"
           collapseOnSelect
           expand="md"
           bg="dark"
@@ -57,12 +57,12 @@ class Header extends Component {
           </Container>
         </Navbar>
         <Router>
-          <switch>
+          <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/about" component={About} />
             <Route exact path="/contacts" component={Contacts} />
             <Route exact path="/blog" component={Blog} />
-          </switch>
+          </Switch>
         </Router>
       </>
     );

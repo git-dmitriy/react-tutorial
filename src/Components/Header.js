@@ -19,13 +19,7 @@ class Header extends Component {
   render() {
     return (
       <>
-        <Navbar
-          fixed="top"
-          collapseOnSelect
-          expand="md"
-          bg="dark"
-          variant="dark"
-        >
+        <Navbar collapseOnSelect expand="md" bg="dark" variant="dark">
           <Container>
             <Navbar.Brand href="/">
               <img
